@@ -1,0 +1,32 @@
+
++---
++type: article
++title: Statistical Deviations From the Theoretical Only-SBU Model to Estimate MCU Rates in SRAMs
++authors:
++- Franco, F. J. 
++- Clemente, J.A.
++- Baylac, M. 
++- Rey, S.
++- Villa, F. 
++- Mecha, H.
++- Agapito, J.A.
++- Puchner, H.
++- Hubert, G.
++- Velazco, R.
++journal: IEEE Transactions on Nuclear Science
++publisher: IEEE
++volume: 64
++pages: 2152--2160
++issn: 0018-9499
++doi: 10.1109/TNS.2017.2726938
++year: 2017
++month: August
++packages:
++  StatsBase.jl: https://github.com/JuliaStats/StatsBase.jl
++---
++ This paper addresses a well-known problem that occurs when memories are exposed to radiation: the determination if a bit flip 
++ is isolated or if it belongs to a multiple event. As it is unusual to know the physical layout of the memory, this paper 
++ proposes to evaluate the statistical properties of the sets of corrupted addresses and to compare the results with a 
++ mathematical prediction model where all of the events are single bit upsets. A set of rules easy to implement in common 
++ programming languages can be iteratively applied if anomalies are observed, thus yielding a classification of errors quite 
++ closer to reality (more than 80% accuracy in our experiments).
